@@ -21,8 +21,8 @@ const displayPost = (allPost) => {
                     <div>
                         <div id="isActive" class="w-4 h-4 rounded-full ${
                           post.isActive ? "bg-green-500" : "bg-red-500"
-                        } ml-24 translate-y-4"></div>
-                        <img class="w-32" src="${post.image} alt="">
+                        } lg:ml-24 translate-y-4"></div>
+                        <img class="lg:w-32" src="${post.image} alt="">
                     </div>
                     <div class="space-y-6 w-full">
                         <div class="flex gap-5">
